@@ -1,0 +1,99 @@
+@import "null.css";
+
+@import url('https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+Antique:wght@400;700;900&display=swap');
+body{
+    font-family: 'Zen Kaku Gothic Antique', sans-serif;
+    font-weight: 400;
+    line-height: 1.6;
+    font-size: 16px;
+}
+
+.wrapper{
+    max-width: 1200px;
+    min-height: 100%;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+.header{
+    margin-bottom: 50px;
+}
+
+.figma{
+    font-size: 20px;
+    color: red;
+    border-bottom: 2px dotted black;
+}
+
+
+.title{
+    margin-bottom: 50px;
+    font-weight: 900;
+    font-size: 40px;
+    text-align: center;
+    color: yellowgreen;
+    border: 2px solid red;
+    border-bottom: 3px dashed green;
+}
+
+.img-1{
+    overflow: hidden;
+    border-radius: 50%;
+    height: 500px;
+    width: 500px;
+    margin: 0 auto;
+    opacity: 0.2;
+}
+
+.subtitle{
+    margin-bottom: 50px;
+    font-weight: 700;
+    font-size: 30px;
+    text-align: center;
+    color: crimson;
+}
+
+.text{
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 30px;
+    margin-bottom: 30px;
+}
+
+.text-1{
+    padding: 10px;
+    border: 5px dashed darkgreen;
+    border-radius: 10px 80px 42% 15px;
+}
+
+.text-2{
+    padding: 10px;
+    border: 5px solid rebeccapurple;
+    border-radius: 57% 43% 7% 93% / 62% 30% 70% 38%;
+    opacity: 0.3; 
+}
+
+.img-2{
+    width: 250px;
+    height: 250px;
+    overflow: hidden;
+    margin: 0 auto;
+    border: 5px dotted darkgoldenrod;
+    border-radius: 55% 45% 80% 20% / 62% 28% 72% 38%;
+    box-shadow: -5px 5px 5px 5px green;
+}
+
+.text-3{
+    outline: 5px solid fuchsia;
+    padding: 10px 0;
+}
+
+.text-4{
+    width: 400px;
+    margin: 0 auto;
+    box-shadow: inset -3px 10px 10px 10px yellow, -3px 8px 9px 10px blue;
+}
+
+.footer{
+    margin-top: 30px;
+}
